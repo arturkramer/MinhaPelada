@@ -39,6 +39,7 @@ Na parte superior esquerda da aplicação existe uma opção denomidada "Arquivo
 
 Caso ocorra tudo bem e o usuário obtenha sucesso ao salvar os dados da Table Widget num arquivo (.txt), será mostrada uma QMessageBox, com a informação "Dados Salvos com Sucesso!". Caso contrário, e o usuário não obtenha êxito na ação de salvar, será mostrada um QMessageBox com a mensagem "Não foi possível salvar os dados".
 
+![](figuras/dados_salvos.png)                   ![](figuras/dados_nao_salvos.png)
 
 
 
