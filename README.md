@@ -49,7 +49,27 @@ Caso contrário, e o usuário não obtenha êxito na ação de salvar, será mos
 
 A aplicação também possui um recurso que permite ao usuário editar os dados presentes na Table Widget, ao clicar duas vezes sobre a célula da tabela na qual o mesmo queira editar as informações.
 
-Se o usuário clicar duas vezes sobre alguma célula da primeira coluna da tabela, aparecerá um QInputDialog com a mensagem "Insira o novo nome:" e uma Line Edit que permite inserir o novo nome q substituirá o conteúdo antigo presente na célula clicada.
+Se o usuário clicar duas vezes sobre alguma célula da primeira coluna da tabela, aparecerá um QInputDialog com a mensagem "Insira o novo nome:" e uma Line Edit que permite inserir o novo nome que substituirá o conteúdo antigo presente na célula clicada.
+
+![](figuras/editar_nome.png)
+
+Caso o usuário clique duas vezes sobre alguma célula da segunda coluna da tabela, aparecerá um QInputDialog com a mensagem "Insira a nova matrícula:" e uma Line Edit que permite inserir a nova matrícula que substituirá o conteúdo antigo presente na célula clicada.
+
+![](figuras/editar_mat.png)
+
+Se o usuário clicar duas vezes sobre alguma célula da terceira coluna da tabela, aparecerá um QInputDialog com a mensagem "Insira o novo número de peladas:" e uma Line Edit que permite inserir o novo número de peladas que substituirá o conteúdo antigo presente na célula clicada.
+
+![](figuras/editar_numero.png)
+
+Por fim, se o usuário clicar em qualquer célula da última coluna da tabela, como a determinação do cargo do peladeiro é em função da sua matrícula, não será possível editar essa informação na tabela e será mostrada uma QMessageBox com a mensagem "Impossível alterar essas informações!".
+
+![](figuras/editar_cargo.png)
+
+Após o usuário inserir qualquer informação editável, essa informação substituirá a informação antiga na tabela, como também atualizará a aba das estatísticas e será mostrada uma QMessageBox com a mensagem "Dados alterados com sucesso!".
+
+![](figuras/altera_dados.png)
+
+
 
 
 
