@@ -3,5 +3,15 @@
 
 Esta aplicação permite que o usuário insira o nome do peladeiro, sua matrícula e o número de peladas disputadas pelo mesmo. A interface inicial da aplicação está demonstrada na figura abaixo.
 
+![](figuras/tela_inicial.png)
+
+A aplicação possui também uma aba denominada "Estatísticas" referente aos dados inseridos na tabela. Essa aba está demonstrada na figura abaixo.
+
+![](figuras/estatisticas.png)
+
+
+
+
+
 
 
