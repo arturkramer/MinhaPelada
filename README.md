@@ -23,7 +23,7 @@ Seguindo, o usuário também pode optar por ordenar por assiduidade, ou seja, po
 
 Por fim, o mesmo pode optar por ordenar por prioridade da pelada, levando em conta que servidores possuem maior prioridade do que dependentes, que por sua vez, possuem mais prioridade do que convidados. Essa ordenação está demonstrada a seguir:
 
-![](figuras/ordenar_prio)
+![](figuras/ordenar_prio.png)
 
 
 
