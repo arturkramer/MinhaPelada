@@ -37,10 +37,19 @@ Na parte superior esquerda da aplicação existe uma opção denomidada "Arquivo
 
 ![](figuras/arquivo.png)
 
-Caso ocorra tudo bem e o usuário obtenha sucesso ao salvar os dados da Table Widget num arquivo (.txt), será mostrada uma QMessageBox, com a informação "Dados Salvos com Sucesso!". Caso contrário, e o usuário não obtenha êxito na ação de salvar, será mostrada um QMessageBox com a mensagem "Não foi possível salvar os dados".
+Caso ocorra tudo bem e o usuário obtenha sucesso ao salvar os dados da Table Widget num arquivo (.txt), será mostrada uma QMessageBox, com a informação "Dados Salvos com Sucesso!".
 
-![](figuras/dados_salvos.png)                   ![](figuras/dados_nao_salvos.png)
+![](figuras/dados_salvos.png)
 
+Caso contrário, e o usuário não obtenha êxito na ação de salvar, será mostrada um QMessageBox com a mensagem "Não foi possível salvar os dados".
+
+![](figuras/dados_nao_salvos.png)
+
+## Editar Dados
+
+A aplicação também possui um recurso que permite ao usuário editar os dados presentes na Table Widget, ao clicar duas vezes sobre a célula da tabela na qual o mesmo queira editar as informações.
+
+Se o usuário clicar duas vezes sobre alguma célula da primeira coluna da tabela, aparecerá um QInputDialog com a mensagem "Insira o novo nome:" e uma Line Edit que permite inserir o novo nome q substituirá o conteúdo antigo presente na célula clicada.
 
 
 
