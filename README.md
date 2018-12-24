@@ -17,11 +17,11 @@ A aplicação também é capaz de realizar ordenações, no momento em que o usu
 
 ![](figuras/ordenar_name.png)
 
-Seguindo, o usuário também pode optar por ordenar por assiduidade, ou seja, por ordem decrescente do número de peladas, como demostrado na figura abaixo:
+Seguindo, o usuário também pode optar por ordenar por assiduidade, ou seja, por ordem decrescente do número de peladas, ao pressionar o PushButton que contém a mensagem "Ordenar por Assiduidade", como demostrado na figura abaixo:
 
 ![](figuras/ordenar_ass.png)
 
-Por fim, o mesmo pode optar por ordenar por prioridade da pelada, levando em conta que servidores possuem maior prioridade do que dependentes, que por sua vez, possuem mais prioridade do que convidados. Essa ordenação está demonstrada a seguir:
+Por fim, o mesmo pode optar por ordenar por prioridade da pelada, ao pressionar o PushButton que contém a mensagem "Ordenar por Prioridade", levando em conta que servidores possuem maior prioridade do que dependentes, que por sua vez, possuem mais prioridade do que convidados. Essa ordenação está demonstrada a seguir:
 
 ![](figuras/ordenar_prio.png)
 
